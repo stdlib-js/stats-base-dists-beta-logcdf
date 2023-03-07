@@ -30,10 +30,14 @@ The [cumulative distribution function][cdf] for a [beta][beta-distribution] rand
 
 <!-- <equation class="equation" label="eq:beta_cdf" align="center" raw="F(x;\alpha,\beta) = \frac{\operatorname{Beta}(x;\alpha,\beta)}{\operatorname{Beta}(\alpha,\beta)}" alt="Cumulative distribution function for a beta distribution."> -->
 
-<div class="equation" align="center" data-raw-text="F(x;\alpha,\beta) = \frac{\operatorname{Beta}(x;\alpha,\beta)}{\operatorname{Beta}(\alpha,\beta)}" data-equation="eq:beta_cdf">
+```math
+F(x;\alpha,\beta) = \frac{\operatorname{Beta}(x;\alpha,\beta)}{\operatorname{Beta}(\alpha,\beta)}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="F(x;\alpha,\beta) = \frac{\operatorname{Beta}(x;\alpha,\beta)}{\operatorname{Beta}(\alpha,\beta)}" data-equation="eq:beta_cdf">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/beta/logcdf/docs/img/equation_beta_cdf.svg" alt="Cumulative distribution function for a beta distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -251,7 +255,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
