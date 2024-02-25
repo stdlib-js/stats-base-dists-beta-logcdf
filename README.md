@@ -65,13 +65,13 @@ where `alpha > 0` is the first shape parameter and `beta > 0` is the second shap
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@v0.2.1-esm/index.mjs';
 ```
 
 #### logcdf( x, alpha, beta )
@@ -179,7 +179,7 @@ y = mylogcdf( 0.3 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@v0.2.1-esm/index.mjs';
 
 var alpha;
 var beta;
