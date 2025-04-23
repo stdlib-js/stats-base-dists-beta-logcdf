@@ -58,32 +58,20 @@ where `alpha > 0` is the first shape parameter and `beta > 0` is the second shap
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-beta-logcdf
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var logcdf = require( '@stdlib/stats-base-dists-beta-logcdf' );
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
 ```
 
 #### logcdf( x, alpha, beta )
@@ -183,11 +171,16 @@ y = mylogcdf( 0.3 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var uniform = require( '@stdlib/random-array-uniform' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var EPS = require( '@stdlib/constants-float64-eps' );
-var logcdf = require( '@stdlib/stats-base-dists-beta-logcdf' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
+import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
+import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta-logcdf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
@@ -197,6 +190,10 @@ var beta = uniform( 10, EPS, 10.0, opts );
 var x = uniform( 10, 0.0, 1.0, opts );
 
 logEachMap( 'x: %0.4f, α: %0.4f, β: %0.4f, ln(F(x;α,β)): %0.4f', x, alpha, beta, logcdf );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -220,7 +217,7 @@ logEachMap( 'x: %0.4f, α: %0.4f, β: %0.4f, ln(F(x;α,β)): %0.4f', x, alpha, b
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
