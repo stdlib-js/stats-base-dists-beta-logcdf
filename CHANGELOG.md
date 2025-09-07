@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-09-07)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`3ba6db7`](https://github.com/stdlib-js/stdlib/commit/3ba6db72e6cb7e636d62c71e73a283f69beafdca) - **bench:** update random value generation [(#6811)](https://github.com/stdlib-js/stdlib/pull/6811) _(by Harsh)_
 -   [`70429b3`](https://github.com/stdlib-js/stdlib/commit/70429b300e75b81b55f1192e0dfc6ab7f5ae9dc1) - **docs:** replace manual `for` loop in examples [(#6792)](https://github.com/stdlib-js/stdlib/pull/6792) _(by Harsh)_
 -   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
@@ -26,10 +29,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Harsh
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
