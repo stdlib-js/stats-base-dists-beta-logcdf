@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
+
+<section class="features">
+
+### Features
+
+-   [`09fa89a`](https://github.com/stdlib-js/stdlib/commit/09fa89aba3362cc58b07b79233413389737d0565) - add C implementation for `stats/base/dists/beta/logcdf` [(#13649)](https://github.com/stdlib-js/stdlib/pull/13649)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3426](https://github.com/stdlib-js/stdlib/issues/3426)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`09fa89a`](https://github.com/stdlib-js/stdlib/commit/09fa89aba3362cc58b07b79233413389737d0565) - **feat:** add C implementation for `stats/base/dists/beta/logcdf` [(#13649)](https://github.com/stdlib-js/stdlib/pull/13649) _(by Ujjwal Verma, Philipp Burckhardt)_
 -   [`ac2de21`](https://github.com/stdlib-js/stdlib/commit/ac2de219ef2fb87ceb61360e6c267c5ab1e3cdbb) - **style:** replace erroneous tab character with space _(by Philipp Burckhardt)_
 
 </details>
@@ -24,9 +47,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Ujjwal Verma
 
 </section>
 
